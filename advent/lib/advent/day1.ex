@@ -1,6 +1,6 @@
 defmodule Advent.Day1 do
 
-  def start(path \\ "resources/day1.txt") do
+  def start(path \\ "../resources/day1.txt") do
     IO.puts "Part 1 = #{part_1(path)}"
     IO.puts "Part 2 = #{part_2(path)}"
   end
